@@ -1,1 +1,3 @@
-# conversation_bot_alfons
+# Alfons , the conversation bot
+
+#### Natural language processing mini-project
