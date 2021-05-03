@@ -86,10 +86,10 @@ def speak(audio_string):
     tts = gTTS(text=audio_string, lang='en') # text to speech(voice)
     r = random.randint(1,20000000)
     audio_file = 'audio' + str(r) + '.mp3'
-    tts.save("./audio/"+ audio_file) # save as mp3
-    playsound("./audio/"+ audio_file) # play the audio file
+    tts.save("../audio/"+ audio_file) # save as mp3
+    playsound("../audio/"+ audio_file) # play the audio file
     print(f"alfons: {audio_string}") # print what app said
-    os.remove("./audio/"+ audio_file) # remove audio file
+    os.remove("../audio/"+ audio_file) # remove audio file
 
 if __name__ == "__main__":
     app.run()
