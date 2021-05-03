@@ -2,9 +2,9 @@
 
 #### Natural language processing mini-project
 
-Alfons is the chatbot you never knew you needed. 
-Instead of typing, just ask your question using your microphone and Alfons will understand you and provide a verbal response. Sometimes very funny ones.
-All you need to do, is a wait bit, while Alfons prepares for the conversation at start.
+* Alfons is the chatbot you never knew you needed. 
+* Instead of typing, just ask your question using your microphone and Alfons will understand you and provide a verbal response. Sometimes very funny ones.
+* All you need to do, is a wait bit, while Alfons prepares for the conversation at start.
 
 
 # Team
