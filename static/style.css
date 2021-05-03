@@ -9,7 +9,15 @@
     align-items: center;
     justify-content: center;
     background: linear-gradient(45deg, #0006ff, #a801ff);
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
   }
+  
+  .col-auto {
+    align-items: center;
+  }
+
+
   .loader {
     height: 70px;
     display: flex;
@@ -21,19 +29,23 @@
     top:30%;
   }
 
-  .btn
-  {
-      position: relative;
-      background: #2196f3;
-      display: inline-block;
-      color: #fff;
-      margin-top: 20px;
-      padding: 10px 30px;
-      font-size: 18px;
-      text-transform: uppercase;
-      text-decoration: none;
-      letter-spacing: 2px;
-      font-weight: 500;
+  .btn{
+    top:60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -0%);
+    position: relative;
+    align-items: center;
+    background: #2195f300;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
   }
 
   .loader .stroke {
