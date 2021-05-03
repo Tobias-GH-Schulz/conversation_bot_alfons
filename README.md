@@ -24,3 +24,4 @@ Instead of typing, just ask your question using your microphone and Alfons will 
 * The bot processes the information using pretrained DialoGPT models, "microsoft/DialoGPT-large" and generates a response.
 * The response and the end result is then trasnferred to audio, by utilizing "gTTS(text=audio_string, lang='en')".
 * This is all encompassed within a for loop, so the user can speak with Alfons as many times as they like.
+* The app is created by using flask.
