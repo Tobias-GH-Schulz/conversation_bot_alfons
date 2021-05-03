@@ -19,8 +19,8 @@ Instead of typing, just ask your question using your microphone and Alfons will 
 
 # How?
 
-Alfons understand human speech via the SpeechRecognition Python library, for which we use "sr.Microphone() as source" for audio input, to detect speech.
-It is then processed into text and printed, by listening to the words, by using "r.recognize_google(audio)".
-The bot processes the information using pretrained DialoGPT models, "microsoft/DialoGPT-large" and generates a response.
-The response and the end result is then trasnferred to audio, by utilizing "gTTS(text=audio_string, lang='en')".
-This is all encompassed within a for loop, so the user can speak with Alfons as many times as they like.
+*Alfons understand human speech via the SpeechRecognition Python library, for which we use "sr.Microphone() as source" for audio input, to detect speech.
+*It is then processed into text and printed, by listening to the words, by using "r.recognize_google(audio)".
+*The bot processes the information using pretrained DialoGPT models, "microsoft/DialoGPT-large" and generates a response.
+*The response and the end result is then trasnferred to audio, by utilizing "gTTS(text=audio_string, lang='en')".
+*This is all encompassed within a for loop, so the user can speak with Alfons as many times as they like.
