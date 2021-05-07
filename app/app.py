@@ -24,7 +24,7 @@ def get_answer():
     if request.method == "POST":
         mode = "deactivated"
         mode = request.form["mode"]
-        r = requests.post("http://127.0.0.1:5003/predict", data=mode)
+        r = requests.post("http://127.0.0.1:5002/predict", data=mode)
         
         r.raise_for_status()
         
@@ -32,5 +32,4 @@ def get_answer():
             return render_template("/index_speech.html")
         
 
-
-# FLASK_ENV=development FLASK_APP=app.py flask run --port=5002
+# FLASK_ENV=development FLASK_APP=app.py flask run --port=5001
