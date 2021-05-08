@@ -94,4 +94,4 @@ def speak(audio_string):
 if __name__ == "__main__":
     app.run()
 
-# FLASK_ENV=development FLASK_APP=alfons.py flask run --port=5003
+# FLASK_ENV=development FLASK_APP=alfons.py flask run --port=5002
